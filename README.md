@@ -1,2 +1,2 @@
-tekst - a [rough] responsive text proof of concept
+tekst - a [rough] responsive text POC
 ======
