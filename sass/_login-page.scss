@@ -1,0 +1,45 @@
+/*
+ * Login Page
+ */
+
+.login-page {
+  background: url(../images/exterior-fan.jpg) no-repeat top center;
+  background-size: auto 100%;
+  .form {
+    box-shadow: 0 0 1rem .2rem rgba(0,0,0,.5);
+    width: 34rem;
+    position: relative;
+    left: 50%;
+    top: 10rem;
+    margin-left: -17rem;
+    background: $primary-color;
+    padding: 3rem 3rem 5rem;
+    img {
+      width: 27rem;
+      height: 9.9rem;
+    }
+    form {
+      fieldset {
+        label {
+
+        }
+        input[type="text"], 
+        input[type="password"] {
+          padding-left: 3.4rem;
+          background: url(../images/form-sprite.png) no-repeat white;
+        }
+        input[type="text"] {
+          background-position: .9rem 0;
+        }
+        input[type="password"] {
+          background-position: .9rem -4.2rem;
+        }
+      }
+      a {
+        text-transform: uppercase;
+        color: white;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
