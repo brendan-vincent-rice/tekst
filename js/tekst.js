@@ -19,7 +19,6 @@ $.fn.tekst = function() {
     });
     
     // How many spans (characters)?
-    //var letterCount = $(".demo span").length;
     var letterCount = thing.find("span").length;
   
     // Set span font size    

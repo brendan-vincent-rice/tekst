@@ -1,20 +1,9 @@
-/*
- * Base
- */
+// base
 
 * {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
-  transition: all .2s;
-}
-
-html, 
-button, 
-input, 
-select, 
-textarea { 
-	color: #222;
 }
 
 html { 
@@ -25,103 +14,9 @@ html {
 }
 
 body { 
+  padding: 20px;
+  margin: 0;
   height: 100%;
 	background: white; 
   font-size: 1rem;
-}
-
-::-moz-selection, 
-::selection {
-	background: #b3d4fc; 
-	text-shadow: none; 
-}
-
-hr { 
-	display: block; 
-	height: 1px; 
-	border: 0; 
-	border-top: 1px solid #ccc; 
-	margin: 1em 0; 
-	padding: 0; 
-}
-
-img {
-	vertical-align: middle; 
-  max-width: 100%;
-  display: block;
-}
-
-// Text
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-}
-
-h1 {
-  display: block;
-  font-size: 3.2rem;
-  margin: 1.8rem 0;
-}
-
-h2 {
-  display: block;
-  font-size: 2.4rem;
-  margin: 1.6rem 0;
-}
-
-h3 {
-  display: block;
-  font-size: 1.6rem;
-  margin: 1.4rem 0;
-}
-
-h4 {
-  display: block;
-  font-size: 1rem;
-  margin: 1.12 0;
-}
-
-h5 {
-  display: block;
-  font-size: 0.83rem;
-  margin: 1.5rem 0;
-}
-
-h6 {
-  display: block;
-  font-size: 0.75rem;
-  margin: 1.17rem 0;
-}
-
-p {
-  font-size: 1.4rem;
-  margin: 1.6rem 0;
-  line-height: 1.4;
-  color: #6e6c77;
-  font-family: sans-serif;
-  font-weight: 400;
-}
-
-// Links
-
-a {
-  text-decoration: none;
-}
-
-a:hover,
-a:active {
-  text-decoration: underline;
-}
-
-a img {
-
-}
-
-a img:hover {
-
 }

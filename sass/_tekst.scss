@@ -1,17 +1,15 @@
-/*
- * Tekst
- */
+// tekst
 
-.demo {
+.tekst {
   white-space: nowrap;
   text-align: center;
-  outline: 1px solid black;
+  //border: 1px solid black;
 }
 
-.demo span {
+.tekst span {
   display: inline-block;
+  text-transform: uppercase;
   text-align: center;
   width: auto;
-  text-transform: uppercase;
   outline: 1px solid red;
 }
